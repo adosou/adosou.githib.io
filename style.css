@@ -1,4 +1,205 @@
+
 /* color codes
   pink:#ffa8cc
   green:#12b32c
 */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'clover';
+    src: url('extras/fairy_clovers-webfont.woff2') format('woff2'),
+         url('extras/fairy_clovers-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat786.cur), auto ;}
+/* header */
+
+.box {
+  width: 890px;
+  height: 100%;
+  border: groove #93a692 6px;
+  margin: auto;
+}
+.header {
+  width: 100%;
+  height: 180px;
+  border: solid #93a692 1px;
+  background-image: url(https://media.discordapp.net/attachments/790581333373616139/1141693861878566922/image_1.png) ;
+  background-size: cover;
+  background-repeat: repeat;
+  text-align: center;
+}
+/*body*/
+.bodybox {
+  width: 100%;
+  height: 600px;
+  border: solid #93a692 2px; 
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* sidebar */
+.sidebar {
+  height: 100%; 
+  width: 174px; 
+  border-right: solid #93a692 2px; 
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  display: inline-block
+}
+
+/* main box */
+.mainbox {
+  height: 100%;
+  width: 720px;
+  /* border: solid black 0.5px; */
+  background-color: white;
+  padding: 0rem 1rem 0.5rem 1rem;
+  overflow: auto;
+  overflow-x: hidden;
+  display:inline-block;
+}
+
+.scrollbox {
+  /* border: solid black 0.5px; */
+  display: inline-block;
+  width: 100%;
+  height: 15%;
+  margin-top: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.floatchild5 {
+  width: 49%;
+  height: 30%;
+  display: inline-block;
+  background-image: linear-gradient(#eded9a, #f0eeb4);
+  border: pink 2px solid;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.floatchild6 {
+  width: 49%;
+  height: 30%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+/* floating elements sidebar*/
+.floatchildsb {
+  vertical-align: top;
+  width: 100%;
+  height: 35%;
+}
+
+.navihead {
+  width: 90%;
+  height: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #A9DDFD;
+  margin: auto;
+  font-family: MS UI Gothic;
+  font-weight: bold;
+}
+
+
+.sitebutton {
+  height: 15%;
+  width: 100%;
+  border-radius: 10px;
+  border: dashed #12b32c 2px;
+  align-items: center;
+  text-align: center;
+}
+
+.blinkies {
+  height: 30%;
+  padding-top: 25%;
+}
+
+/*fonts*/
+
+.span1 {
+  color: #12b32c;
+  font-family: "MS UI gothic";
+  line-height: 1.5;
+}
+body {
+  background-image: url(https://i.pinimg.com/564x/0f/8b/07/0f8b075201cb8e3e429c0b106925b60d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+img {
+  margin: 0.3rem;
+}
+
+h1 {
+  color: #12b32c;
+  font-family: "clover" ;
+  letter-spacing: 2px;
+}
+p {
+  font-family: "MS UI gothic";
+  line-height: 1.2;
+  letter-spacing:-0.7px
+}
+
+ ul {
+  /*list specs*/
+  list-style: none; 
+  list-style-position: inside;
+  text-indent: -1rem; 
+  font-family: "MS UI gothic";
+}
+
+.sidebar p {
+  text-align: left;
+  line-height: 3;
+}
+
+.floatchildsb ul {
+  /*list specs*/
+  list-style-image: url(https://i.imgur.com/4ziV6lZ.gif);
+  list-style-position: inside;
+  text-indent: -1rem;
+  line-height: 1.4;
+  /*font specs*/
+  font-family: "MS gothic";
+
+}
+
+.blinkies img {
+  margin: -0.5rem;
+  margin-left: 0rem;
+}
+
+div {
+box-sizing: border-box;
+}
+
+/* link behaviour */
+
+a:link, a:visited {
+  color: #ffa8cc;
+}
+
+a:hover {
+    text-decoration: none;
+    
+
+
+
+}
