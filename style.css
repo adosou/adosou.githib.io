@@ -37,7 +37,6 @@
     font-style: normal;
 }
 
-body {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat786.cur), auto ;}
 /* header */
 
 .box {
@@ -46,6 +45,7 @@ body {cursor: url(https://cur.cursors-4u.net/nature/nat-8/nat786.cur), auto ;}
   border: groove #735BAA 6px;
   margin: auto;
 }
+
 .header {
   width: 80%;
   height: 180px;  
