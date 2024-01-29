@@ -8,8 +8,25 @@
   purple: #735BAA
 */
 
+/* scrollbar */
+/* width */
 ::-webkit-scrollbar {
-    display: none;
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4e7b48;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #735BAA;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #735BAA;
 }
 
 @font-face {
