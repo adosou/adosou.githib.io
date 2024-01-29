@@ -11,6 +11,13 @@
 ::-webkit-scrollbar {
     display: none;
 
+}
+
+body {
+  background-color: lightblue;
+}
+
+
 @font-face {
     font-family: 'clover';
     src: url('extras/fairy_clovers-webfont.woff2') format('woff2'),
@@ -28,10 +35,11 @@
   margin: auto;
 }
 
+
 .header {
-  width: 80%;
+  width: 100%;
   height: 180px;  
-  border: solid #735BAA 4px;
+  border: solid #1c1c1a 4px;
   background-image: url(https://imgur.com/vYBnYL3.jpeg) ;  
   background-size: cover;
   background-repeat: repeat;
@@ -42,13 +50,14 @@
   width: 100%;
   height: 600px;
   border: solid #93a692 2px; 
-  background-color: #735BAA ;
+  background-color: #1c1c1a ;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
+
 
 /* sidebar */
 .sidebar {
@@ -64,7 +73,7 @@
   height: 100%;
   width: 720px;
   /* border: solid black 0.5px; */
-  background-color: white;
+  background-color: #d7cdcd;
   padding: 0rem 1rem 0.5rem 1rem;
   overflow: auto;
   overflow-x: hidden;
@@ -142,7 +151,7 @@ body {
   background-image: url(https://imgur.com/JVEFP3f.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: purple;
+  background-color: #1c1c1a;
 }
 
 img {
@@ -202,7 +211,6 @@ a:link, a:visited {
 a:hover {
     text-decoration: none;
     
-
 
 
 }
