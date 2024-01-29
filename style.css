@@ -8,26 +8,8 @@
   purple: #735BAA
 */
 
-/* scrollbar */
-/* width */
 ::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #4e7b48;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #735BAA;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #735BAA;
-}
+    display: none;
 
 @font-face {
     font-family: 'clover';
@@ -157,7 +139,7 @@
   line-height: 1.5;
 }
 body {
-  background-image: url(https://i.pinimg.com/564x/0f/8b/07/0f8b075201cb8e3e429c0b106925b60d.jpg);
+  background-image: url(https://imgur.com/JVEFP3f.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
